@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color:rgb(10, 251, 255);
+    background-image: url("./image/wangsina_333_03_2022_22.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 10vw;
+
+
+
+}
+.result{
+    background-color: rgb(146, 232, 232,0.5);
+    padding: 10px;
+    color: antiquewhite;
+    width: 20%;
+    margin: 10px 10%;
+    border-radius: 20px;
+}
+h1::first-letter{
+    color: aliceblue;
+}
+
+#invalid{
+    display: none;
+}
+#userInput{
+    width: 40%;
+    height: fit-content;
+    /* border: 1px solid rgb(234, 238, 241); */
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    font-size: larger;
+}
+#userInput >p{
+    color: aliceblue;
+    font-size: 20px;
+}
+input{
+    width: 40vw;
+    padding: 20px;
+    background-color: black;
+}
