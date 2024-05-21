@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
+    overflow: hidden;
 }
 body{
     height: 100vh;
@@ -13,9 +14,12 @@ body{
     align-items: start;
     color:rgb(10, 251, 255);
     background-image: url("./image/wangsina_333_03_2022_22.jpg");
+    
     background-position: center;
     background-size: cover;
-    margin-left: 10vw;
+   
+    background-repeat: no-repeat;
+  
 
 
 
@@ -34,6 +38,7 @@ h1::first-letter{
 
 #invalid{
     display: none;
+    color: brown !important;
 }
 #userInput{
     width: 40%;
