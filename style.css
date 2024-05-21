@@ -55,7 +55,7 @@ h1::first-letter{
     font-size: larger;
 }
 #userInput >p{
-    color: aliceblue;
+    color: aliceblue;;
     font-size: 20px;
 }
 input{
@@ -63,3 +63,18 @@ input{
     padding: 20px;
     background-color: black;
 }
+
+@media screen and (max-width:650px) {
+    body{
+        background-position: right;
+        align-items: center;
+        background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./image/wangsina_333_03_2022_22.jpg);
+    }
+    #userInput{
+        font-size: 10px ;
+    }
+    #userInput >p{
+        font-size: 12px ;
+    }
+}
+
