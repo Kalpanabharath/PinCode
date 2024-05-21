@@ -4,6 +4,7 @@ A simple web application to find details of a pincode using HTML, CSS, and JavaS
 
 ## Features
 
+- **Responsive Design**: The webpage is designed to be responsive and works well on different screen sizes.
 - **Event Listeners**: Added event listeners to handle form submission and input events.
 - **Error Handling**: Implemented error handling for invalid pincode entries and network errors.
 - **User-Friendly Interface**: Designed a clean and intuitive interface using CSS.
