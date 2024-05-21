@@ -1,7 +1,4 @@
 
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
     // Custom input element definition
     class CustomInput extends HTMLElement {
